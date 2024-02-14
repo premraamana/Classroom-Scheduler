@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="Stylesheet" href="style.css"/>
+    <title>Class room scheduler</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <div class="logo"><h1>ClassRoom Scheduler</h1></div>
+            <div>
+                <ul>
+                    <li><a href="#">View your Batches</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="Search Box">
+            <input type="search" name="Search bar" placeholder="Search" id="Search txt"/>
+            <button class="btn">Search Teacher</button>
+        </div>
+    </nav>
+     <div class="Wrapper">
+        <br><br>
+        <h1 class="header">Schedule your Batch/Class</h1>
+        <br><br>
+        <h2 for="adding note" class="adding note">Add Batch</h2>
+        <br>
+        <input
+        name="text area"
+        id="title"
+        class="input"
+        cols="100"
+        rows="2"
+        placeholder="Enter batch timing"
+        ></input>
+        <br><br>
+    <h2 for="addingNote" class="addingNote">Add Teacher</h2><br>
+        <input name="textarea" id="note-text" class="input2" cols="100" rows="2" placeholder="Enter teacher name"></input><br><br>
+        <button class="note-btn">Schedule batch</button>
+        <img class="image" src="Classroom.png" alt="classroom"> 
+        <hr class="margin-top hr" />
+        <h1 class="class">Your Classes</h1>
+        <hr class="hr"/>
+        <div class="showNotes" id="notes"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
